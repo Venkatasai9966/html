@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>test of forms</title>
+    <title>test</title>
     <style>
         body{
             margin: 90px 0 90px 400px;
@@ -91,11 +91,17 @@
             </tr>
             <tr>
                 <td>Date of Birth</td>
-                <td><input type="datetime" placeholder="DOB  DD-MM-YY"></td>
+                <td><input type="datetime-local" placeholder="DOB  DD-MM-YY"></td>
             </tr>
             <tr>
                 <td>Gender</td>
-                <td><input type="text" placeholder="Gender"></td>
+                <td>
+                    <select>
+                      <option value="gender">Male</option>
+                      <option value="gender">Female</option>
+                      <option value="gender">Others</option>
+                    </select>
+                  </td>
             </tr>
             <tr>
                 <td>Email Address</td>
@@ -106,8 +112,8 @@
                 <td><input type="number" placeholder="Mobile Number" ></td>
             </tr>
             <tr>
-                <td>Course Description</td>
-                <td><textarea name="" id="" cols="30" rows="10" placeholder="Course Description"></textarea></td>
+                <td>address</td>
+                <td><textarea name=""  placeholder="address"></textarea></td>
             </tr>
             <tr>
                 <td>Course Name</td>
@@ -115,7 +121,12 @@
             </tr>
             <tr>
                 <td>Type of Education</td>
-                <td><input type="text" placeholder="Type of Education" ></td>
+                <td><select>
+                    <option value="education">---select---</option>
+                    <option value="education">python</option>
+                    <option value="education">java</option>
+                    <option value="education">Others</option>
+                  </select></td>
             </tr>
             <tr>
                 <td>Course Description</td>
